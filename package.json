@@ -7,5 +7,8 @@
   { "type": "git",
     "url": "http://github.com/Frans-Willem/node-BufferLib.git"
   },
-  "main": "lib/BufferLib"
+  "directories":
+  { "lib": "./lib"
+  },
+  "main": "./lib/BufferLib"
 }
