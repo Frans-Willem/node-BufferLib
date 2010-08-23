@@ -1,0 +1,11 @@
+{ "name": "BufferLib",
+  "version": "0.1",
+  "description": "Set of classes to simplify reading and creating of Buffers",
+  "engine": [ "node >=0.1.90" ],
+  "author": "Frans-Willem Hardijzer <fw@hardijzer.nl>",
+  "repository":
+  { "type": "git",
+    "url": "http://github.com/Frans-Willem/node-BufferLib.git"
+  },
+  "main": "lib/BufferLib"
+}
