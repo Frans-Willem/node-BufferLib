@@ -1,5 +1,5 @@
 { "name": "bufferlib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set of classes to simplify reading and creating of Buffers",
   "engine": [ "node >=0.1.90" ],
   "author": "Frans-Willem Hardijzer <fw@hardijzer.nl>",
