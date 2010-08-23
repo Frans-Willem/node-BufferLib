@@ -1,0 +1,34 @@
+functions that BufferReader and BufferQueueReader should support:
+	skip(bytes) (formerly popDiscard)
+	popByte() -> number
+	popChar() -> string
+	popBytes(count) -> array
+	popBuffer(count) -> buffer
+	popString(count,encoding) -> string
+	popStringZero(encoding) -> string (will return undefined when no terminating 0 is found)
+	popIntLE(size) -> number
+	popIntBE(size) -> number
+	
+	indexOf(number) -> -1 or index
+	readByte(offset) -> number
+	readChar(offset) -> string
+	readBytes(offset,count) -> array
+	readBuffer(offset,count) -> Buffer
+	readString(offset,count,encoding) -> string
+	readStringZero(offset,encoding) -> string (or undefined when no terminating 0 is found)
+	readIntLE(offset,size) -> number
+	readIntBE(offset,size) -> number
+	copy(targetBuffer, targetStart, sourceStart, sourceEnd) -> copied
+	slice(startoffset,endoffset) -> number
+functions that BufferBuilder should support:
+	pushByte(number);
+	pushChar(string);
+	pushBytes(array);
+	pushBuffer(buffer);
+	pushString(string,encoding);
+	pushStringZero(string,encoding);
+	pushIntLE(value,size);
+	pushIntBE(value,size);
+	pushBuilder(builder);
+	toBuffer();
+	write(buffer,offset);
